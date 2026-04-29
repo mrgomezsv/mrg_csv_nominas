@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Odoo
+*.log
+
+# macOS
+.DS_Store
+
+# Documentos de requerimientos
+AJUSTE ARCHIVO CSV.docx
+ENTIM 2Q FEB26.csv
+*.csv
+*.docx
