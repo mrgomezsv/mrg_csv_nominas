@@ -6,6 +6,8 @@ class HrPlanilla(models.Model):
     _inherit = 'hr.planilla'
 
     def action_generate_scv_csv(self):
+        if not self:
+            return True
         content = ""
         for record in self:
             for line in record.planilla_lines:
