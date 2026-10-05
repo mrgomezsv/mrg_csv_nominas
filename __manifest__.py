@@ -1,4 +1,4 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 {
     'name': 'MRG SCV Nominas',
     'version': '20.0.1.0.0',
